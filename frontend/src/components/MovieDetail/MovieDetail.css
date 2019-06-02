@@ -1,0 +1,15 @@
+#movie-detail.card {
+  margin: 15px auto;
+  max-width: 95%;
+}
+
+@media (min-width: 800px) {
+  #movie-detail.card {
+    max-width: 65%;
+  }
+}
+
+#movie-detail .content,
+#movie-detail .extra-content {
+  font-size: 18px;
+}
